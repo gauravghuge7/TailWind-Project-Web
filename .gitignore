@@ -3,6 +3,7 @@
 /cli
 /lib
 /peers
+.gitignore
 /example
 .vscode
 .DS_Store
