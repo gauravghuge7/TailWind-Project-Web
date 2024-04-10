@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>tailwind landing page</title>
     <link rel="stylesheet" href="./tailwindCss/output.css">
+
+    <!-- link local css file -->
+    <link rel="stylesheet" href="./index.css">
+
+    <!-- font awesome links -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
 
@@ -43,26 +49,99 @@
 
     </section>
 
+    <!-- this is the company logo section -->
+    <div class="flex justify-around py-5 text-black bg-gray-100 items-center">
+        <p>Trusted by the best in the world </p>
+        <img src="./assets/Google.png" alt="">
+        <img src="./assets/Atlassian.png" alt="">
+        <img src="./assets/Canon.png" alt="">
+        <img src="./assets/Walmart.png" alt="">
+        <img src="./assets/Amazon.png" alt="">
 
-    <section>
+    </div>
+
+     <!-- this is the video section  -->
+    <section class="bgColor py-6">
+        <header class="flex justify-around">
+            <h1 class="text-3xl text-white">High-Level Sales <span class="text-yellow-500">Teams & Professionals</span></h1>
+            <p class="text-white">Circuit is flexible and affordable and offers you exceptional support to achieve yout career goals. Circuit <br> is global training provider based across the UK that specialises</p>
+        </header>
+        
+        <div class="addImage w-full h-[700px] bg-no-repeat flex flex-row justify-center items-center">
+            <img src="./assets/Play.png" alt="">
+        </div>
+    </section>
+
+    <div class="flex flex-row my-9 justify-around items-center">
+        <div class="w-48">
+            <button class="border bg-black text-white rounded-xl py-1 px-2 ">beneficial</button>
+            <h1 class="text-3xl font-bold">Beneficial elements</h1>
+            <p>An awesome and powerful tool for your business increase your sales and revenue</p>
+        </div>
+        <div class="flex flex-row">
+            <section class="div-section ">
+                <img src="./assets/Illust 1.png" alt="">
+                <h1 class="text-2xl font-bold mb-5">Happy customers</h1>
+                <p>producive agents are <br> happy agents. Give them <br> all the support tool and <br> information they need to <br> best serve your customers</p>
+            </section>
+            <section class="div-section">
+                <img src="./assets/Illust 2.png" alt="">
+                <h1 class="text-2xl font-bold mb-5">Best Integrations</h1>
+                <p>producive agents are <br> happy agents. Give them <br> all the support tool and <br> information they need to <br> best serve your customers</p>
+            </section>
+            <section class="div-section">
+                <img src="./assets/Illust 3.png" alt="">
+                <h1 class="text-2xl font-bold mb-5">Grow Without <br> Problems</h1>
+                <p>producive agents are <br> happy agents. Give them <br> all the support tool and <br> information they need to <br> best serve your customers</p>
+            </section>
+        </div>
+    </div>
+
+   
+
+    <main class="bg-black text-white flex p-10 justify-center items-center">
+        <div>
+            <h1 class="text-5xl font-bold ">Take Your Customer To The Next Level</h1>
+            <button class="border rounded-3xl my-3 py-1 px-7 text-white bg-yellow-400">Get 14 Days Free Trial</button>
+            <p>No credit card required</p>
+        </div>
+        <div><img src="./assets/Decorations.png" alt=""></div>       
+    </main>
+
+    <section class="flex justify-around my-4 py-9 items-start">
         <div>
             <img src="./assets/Logo.png" alt="">
-            <ul>
+            <ul class="flex gap-7 mt-5">
+                <li><i class=" fa-brands fa-facebook"></i></li>
                 <li><i class=" fa-brands fa-instagram"></i></li>
-                <li></li>
-                <li></li>
+                <li><i class=" fa-brands fa-youtube"></i></li>
             </ul>
         </div>
-        <section></section>
-        <ul></ul>
-        <ul></ul>
+        <section class="w-[520px] ">
+            <p>An awesome and powerful tools for your business, increase business revenue with evaluating in depth variety of data sets and including and speech of tech adpation we can build bridges between any companies and their customers </p>
+        </section>
+        <ul>
+            <li><h1>Home</h1></li>
+            <li><p>Features</p></li>
+            <li><p>Solutions</p></li>
+            <li><p>Resources</p></li>
+            <li><p>Pricing</p></li>
+            
+
+        </ul>
+        <ul>
+            <li><a href="">About Us</a></li>
+            <li><a href="">Company</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">Career</a></li>
+        </ul>
     </section>
 
 
     <footer class="flex justify-between px-9 py-3  bg-gray-200">
         <div><p>&copy;2022-2023 Trustco.</p></div>
         <nav>
-            <ul class="flex gap-2">
+            <ul class="flex gap-4">
                 <li>Terms of Services</li>
                 <li>Privacy Policy</li>
                 <li>Languages</li>

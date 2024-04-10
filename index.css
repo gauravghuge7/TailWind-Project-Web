@@ -1,0 +1,13 @@
+
+.addImage{
+    background-image: url('./assets/team\ video\ BG.png');
+    /* background-size: cover; */
+    background-size: 80% 80%;
+    background-color: #041926;
+    background-position: center;
+    /* height: 900px; */
+}
+
+.bgColor {
+    background-color: #041926;
+}

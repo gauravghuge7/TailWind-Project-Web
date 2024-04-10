@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .div-section{
+    @apply bg-gray-200 rounded-lg text-black p-4 m-4;
+    }
+
+}
